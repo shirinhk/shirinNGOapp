@@ -12,6 +12,13 @@ body {
   color: yellow;
 }
 
+a {
+  color: thistle;
+  font-size: 4em;
+  text-decoration: none;
+  cursor: grab;
+}
+
 .hidden {
   display: none;
 }

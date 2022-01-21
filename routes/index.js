@@ -17,12 +17,12 @@ router.get('/', (req, res) => {
 })
 
 router.get('/joe', (req, res) => {
-    res.send(`this is Joe's page`);
+    res.end(`this is Joe's page`);
     //res.sendFile(path.join(__dirname, '../views/index.html'));
 })
 
 router.get('/john', (req, res) => {
-    res.send(`all about John`);
+    res.end(`all about John`);
     //res.sendFile(path.join(__dirname, '../views/index.html'));
 })
 
